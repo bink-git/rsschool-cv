@@ -49,3 +49,18 @@ fizzbuzz(num);
 ```
 
 ---
+
+## Education
+
+- Ivano-Frankivsk National Technical University of Oil and Gas / Computer Programming
+
+- Udemy Courses
+
+- Beetroot Academy / Frontend Development Course (4 month)
+
+---
+
+## Languages
+
+Ukrainian - native speaker\
+English - A2 (B1 in progress…)
