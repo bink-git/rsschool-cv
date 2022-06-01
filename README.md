@@ -1,1 +1,1 @@
-https://bink-git.github.io/rsschool-cv/c
+https://bink-git.github.io/rsschool-cv/cv
