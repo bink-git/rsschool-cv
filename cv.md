@@ -1,17 +1,15 @@
-[rsschool-cv](https://bink-git.github.io/rsschool-cv/cv)
+# Bahniuk Ivan
 
-# Bahniuk Ivan\
+## Contact information:
 
-## Contact information:\
-
-E-mail: bahniuk.dev@gmail.com\
+E-mail: bahniuk.dev@gmail.com
 Telegram: @BINK119\
 LinkedIn\
-Behance\
+Behance
 
-## Skills\
+## Skills
 
-- HTML5\
-- CSS3 (Bootstrap, SCSS, BEM)\
-- JavaScript (Fundamentals, ES6+, DOM, JSON)\
-- Git/GitHub\
+- HTML5
+- CSS3 (Bootstrap, SCSS, BEM)
+- JavaScript (Fundamentals, ES6+, DOM, JSON)
+- Git/GitHub
