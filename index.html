@@ -4,20 +4,335 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8487242f69.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Bahniuk Ivan</h1>
-    <section class="contacts">
-      <h2>Contacts:</h2>
-      <p>E-mail: bahniuk.dev@gmail.com</p>
-      <p>Telegram: @BINK119(https://t.me/BINK119)</p>
-      <p>
-        LinkedIn: Bahniuk Ivan
-        (https://www.linkedin.com/in/ivan-bahniuk-356848104/)
-      </p>
-      <p>GitHub: bink-git (https://github.com/bink-git)</p>
-    </section>
+    <div class="container">
+      <header class="header">
+        <div class="header-photo">
+          <img src="img/profile.jpg" alt="profile photo" />
+        </div>
+        <div class="header-content">
+          <div class="header-text">
+            <h1 class="header-title">Ivan Bahniuk</h1>
+            <p class="header-descr">Frontend Developer</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-content">
+        <aside class="aside">
+          <section class="contacts">
+            <h2 class="subtitle">Contacts</h2>
+            <ul class="contacts-list">
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:bahniuk.dev@gmail.com">bahniuk.dev@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-telegram"></i>
+                <a href="https://t.me/BINK119">@BINK119</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-discord"></i>
+                <a href="#">BINK#4782</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/ivan-bahniuk-356848104/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/bink-git">bink-git</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skills">
+            <h2 class="subtitle">Skills</h2>
+            <ul class="skills-list">
+              <li>
+                <span class="skill-title">HTML</span>
+                <div class="skill-line line-html"></div>
+              </li>
+              <li>
+                <span class="skill-title">CSS</span>
+                <div class="skill-line line-css"></div>
+              </li>
+              <li>
+                <span class="skill-title">JS/ES6</span>
+                <div class="skill-line line-js"></div>
+              </li>
+              <li>
+                <span class="skill-title">React</span>
+                <div class="skill-line line-react"></div>
+              </li>
+              <li>
+                <span class="skill-title">Git</span>
+                <div class="skill-line line-git"></div>
+              </li>
+            </ul>
+
+            <h2 class="subtitle">Languages</h2>
+            <p class="skill-title">English - A2 (B1 in progress)</p>
+            <p class="skill-title">Ukrainian - native</p>
+          </section>
+
+          <section class="anim">
+            <img
+              src="./img/html.svg"
+              alt="html logo"
+              class="html-logo anim-logo"
+            />
+            <img
+              src="./img/css.svg"
+              alt="css logo"
+              class="css-logo anim-logo"
+            />
+            <img
+              src="./img/javascript.svg"
+              alt="js logo"
+              class="js-logo anim-logo"
+            />
+            <img
+              src="./img/bootstrap.svg"
+              alt="bs logo"
+              class="bs-logo anim-logo"
+            />
+            <img
+              src="./img/chrome.svg"
+              alt="chrome logo"
+              class="ch-logo anim-logo"
+            />
+            <img
+              src="./img/gulp.svg"
+              alt="gulp logo"
+              class="gl-logo anim-logo"
+            />
+            <img
+              src="./img/node.svg"
+              alt="nodejs logo"
+              class="nd-logo anim-logo"
+            />
+            <img
+              src="./img/npm.svg"
+              alt="npm logo"
+              class="npm-logo anim-logo"
+            />
+            <img
+              src="./img/react.svg"
+              alt="react logo"
+              class="rc-logo anim-logo"
+            />
+            <img
+              src="./img/sass.svg"
+              alt="sass logo"
+              class="sa-logo anim-logo"
+            />
+            <img
+              src="./img/stackoverflow.svg"
+              alt="stack logo"
+              class="so-logo anim-logo"
+            />
+            <img
+              src="./img/typescript.svg"
+              alt="ts logo"
+              class="ts-logo anim-logo"
+            />
+            <img
+              src="./img/webpack.svg"
+              alt="webpack logo"
+              class="wp-logo anim-logo"
+            />
+          </section>
+        </aside>
+
+        <main class="main">
+          <section class="about-me">
+            <h2 class="subtitle">About me</h2>
+            <p class="main-text">
+              My main qualities are the ability to work in a team and to learn
+              quickly. Also at the moment I'm learning React.
+            </p>
+          </section>
+          <div class="divider"></div>
+
+          <section class="education">
+            <h2 class="subtitle">Education</h2>
+            <ul class="edu-list">
+              <li>
+                <p class="main-text">
+                  <span
+                    >Ivano-Frankivsk National Technical University of Oil and
+                    Gas</span
+                  >
+                  / Computer Programming (2001-2006)
+                </p>
+              </li>
+              <li>
+                <p class="main-text">
+                  <span>Beetroot Academy</span>
+                  / Frontend Development Course (4 month)
+                </p>
+              </li>
+              <li>
+                <p class="main-text"><span>Udemy </span>Courses</p>
+              </li>
+              <li>
+                <p class="main-text">
+                  <span>SoftServe</span> / Online React Marathon (3 month)
+                </p>
+              </li>
+              <li>
+                <p class="main-text">
+                  <span>EPAM University</span> / Frontend Spring 2022 course (in
+                  progress)
+                </p>
+              </li>
+              <li>
+                <p class="main-text"><span>FreeCodeCamp</span></p>
+              </li>
+            </ul>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="code">
+            <h2 class="subtitle">Code Example</h2>
+            <pre>
+              <code>
+const num = +prompt('Enter number');
+
+function fizzbuzz(n) {
+    if (n % 3 === 0 && n % 5 === 0) {
+        alert('FizzBuzz');
+    } else if (n % 3 === 0) {
+        alert('Fizz');
+    } else if (n % 5 === 0) {
+        alert('Buzz');
+    } else {
+        alert(n);
+    }
+}
+
+fizzbuzz(num);
+              </code>
+            </pre>
+            <div class="divider"></div>
+
+            <section class="works">
+              <h2 class="subtitle">My works</h2>
+              <div class="works-container">
+                <div class="work-wrapper">
+                  <a
+                    href="https://bink-git.github.io/car-repair/"
+                    class="work-example work-1"
+                    target="_blank"
+                  >
+                  </a>
+                  <p class="work-descr">
+                    Final project in
+                    <a
+                      href="https://lms.beetroot.academy/diploma/ckfhjxwulp4gv073684jpj0g1"
+                      target="_blank"
+                      >Beetroot Academy
+                    </a>
+                  </p>
+                </div>
+                <div class="work-wrapper">
+                  <a
+                    href="https://bink-git.github.io/go-surf/"
+                    class="work-example work-2"
+                    target="_blank"
+                  ></a>
+                  <p class="work-descr">
+                    Project from
+                    <a
+                      href="https://www.youtube.com/watch?v=TisGtkOPh24&list=PLN2KCaMlZNdBEtr55AmjP_67lo8jWoCqt&ab_channel=%D0%9E%D1%820%D0%B4%D0%BE1"
+                      target="_blank"
+                      >Youtube</a
+                    >
+                  </p>
+                </div>
+
+                <div class="work-wrapper">
+                  <a
+                    href="https://bink-git.github.io/movies-app-react/"
+                    class="work-example work-3"
+                    target="_blank"
+                  ></a>
+                  <p class="work-descr">
+                    Project from
+                    <a
+                      href="https://www.udemy.com/course/react-from-scratch/"
+                      target="_blank"
+                      >Udemy</a
+                    >
+                  </p>
+                </div>
+                <div class="work-wrapper">
+                  <a
+                    href="https://bink-git.github.io/gpt-react/"
+                    class="work-example work-4"
+                    target="_blank"
+                  ></a>
+                  <p class="work-descr">
+                    Project from
+                    <a
+                      href="https://www.youtube.com/watch?v=LMagNcngvcU&ab_channel=JavaScriptMastery"
+                      target="_blank"
+                      >Youtube</a
+                    >
+                  </p>
+                </div>
+                <div class="work-wrapper">
+                  <a
+                    href="https://bink-git.github.io/hover-board/"
+                    class="work-example work-5"
+                    target="_blank"
+                  ></a>
+                  <p class="work-descr">Project from 5 days Marathon</p>
+                </div>
+                <div class="work-wrapper">
+                  <a
+                    href="https://bink-git.github.io/vertical-slider/"
+                    class="work-example work-6"
+                    target="_blank"
+                  ></a>
+                  <p class="work-descr">Simple vertical slider</p>
+                </div>
+              </div>
+            </section>
+          </section>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-github">
+          <a href="https://github.com/bink-git" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="footer-copy">© 2022 RS School</div>
+        <div class="footer-logo">
+          <a href="https://rs.school/js/" target="_blank">
+            <img src="./img/rs_school_js.svg" alt="RS Shool Logo" />
+          </a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
